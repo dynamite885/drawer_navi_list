@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        drawerLayout = findViewById(R.id.navigation);
+        drawerLayout = findViewById(R.id.drawer);
         drawerLayout.closeDrawers();
 
         ArrayList<ListViewItem> list = new ArrayList<>();
